@@ -1,0 +1,89 @@
+body {
+  /*background-color: #F5F5F5;*/
+  background-image: url(images/fonds.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+h1 {
+  color: red;
+}
+
+a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+#page-content {
+  margin: 0 auto;
+}
+
+.card-white {
+  padding: 10px;
+  background-color: rgba(240, 240, 240, 0.6);
+  width: 500px;
+  box-shadow: 1px 1px 1px rgb(100,100,100);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.card-white:hover {
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.images_petit {
+width:80px;
+height:80px;
+}
+
+.img_medium {
+  width:250px;
+  height:300px;
+}
+
+#profil {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 35px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.inline-block {
+  list-style-type: none;
+  font-size: 30px;
+  padding: 10px;
+}
+.inline-block li {
+  padding: 30px;
+}
+
